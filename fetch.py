@@ -9,7 +9,7 @@ import string
 step = 5000
 events = 7179715
 output = "export.csv"
-urlbase = "https://10.200.95.192/api/v1/events?token=5ded82019a30f44c89baf19f9933798a&type=connection&timeperiod=2592000&limit=" + str(step) + "&skip="
+urlbase = "https://aaa.bbb.ccc.ddd/api/v1/events?token=XXXXXXXXXXXXXXX&type=connection&timeperiod=2592000&limit=" + str(step) + "&skip="
 
 
 totalcalls = int(events/step)
